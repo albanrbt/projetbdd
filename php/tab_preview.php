@@ -43,7 +43,7 @@ echo " <link href=\"../projetbdd/CSS/calendar.css\" rel=\"stylesheet\">";
 
     }
 }
-
+/*
 function medic_preview(){
 
     include("library/connection.php");
@@ -62,4 +62,4 @@ function medic_preview(){
             </tr>";
         }
     }
-}
+}*/
