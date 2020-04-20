@@ -1,0 +1,72 @@
+/* Style the header */
+body {font-family: Verdana,sans-serif;}
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    margin-left: -1%;
+    margin-right: -2%;
+    margin-top: -1%;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+
+    position: top;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+
+}
+.navli{
+    list-style: none;
+    text-align: center;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 250px;
+    height: 40px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover{
+    background-color: grey;
+}
+
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}

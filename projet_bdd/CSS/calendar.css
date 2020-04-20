@@ -1,0 +1,56 @@
+
+body {font-family: Verdana,sans-serif;}
+
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+ td {
+    padding: 7px;
+}
+
+ .tab{
+     margin: 5% 15%;
+     position: center;
+
+ }
+
+ .semaine,.clients{
+     background-color: #9ea2a4;
+ }
+
+ .attribut{
+     background-color: lightgray;
+ }
+
+ .heures{
+     background-color: #9ea2a4;
+ }
+ .champs{
+     background-color: white;
+ }
+ .champs:hover{
+     background-color: black;
+ }

@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 150px;
+}
+.container-fluid{
+    background-image: url(file_background/randonnee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-family: sans-serif;
+    padding:43px 30px;
+}
+button{
+    font-family: Rapha Serif Text,a-otf-ryumin-pr6n,serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    background-color: white;
+    border: none;
+    text-decoration-skip: ink;
+}
+button:hover{
+    color: rgb(133, 128, 128);
+}
+
+/* style of a row */
+.row {
+    margin-right: 25%;
+    color: white;
+}
+.row input{
+    background: transparent;
+    color: white;
+}
+.row option{
+    background-color:rgba(10, 9, 9, 0.5);
+}
+.row ::placeholder{
+    color: rgb(216, 213, 213);
+}
+/* style of a row */
+
+/* style of a cell */
+[class*="col-"], footer {
+    background: rgba(0,0,0,0.5);
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+}
+.col-lg-offset-4{
+    margin-left:33.3%;
+}
+/* style of a cell */
