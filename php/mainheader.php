@@ -1,11 +1,11 @@
 <?php
 
     echo "
-  <link href=\"../projet_bdd/CSS/header.css\" rel=\"stylesheet\">
+  <link href=\"../projetbdd/CSS/header.css\" rel=\"stylesheet\">
  
 <div class=\"header\" id=\"myHeader\">
     <nav>
-        <a href='Mainpage.php'> <img src=\"../projet_bdd/img/logo.png\" id=\"logo\"></a>
+        <a href='Mainpage.php'> <img src=\"../projetbdd/img/logo.png\" id=\"logo\"></a>
         
         <ul class=\"nav\">";
         if (isset($_SESSION['role'])){

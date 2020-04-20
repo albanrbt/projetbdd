@@ -3,7 +3,7 @@
 function tab_preview(){
 
     include("connection.php");
-echo " <link href=\"../projet_bdd/CSS/calendar.css\" rel=\"stylesheet\">";
+echo " <link href=\"../projetbdd/CSS/calendar.css\" rel=\"stylesheet\">";
 
     $sql = "SELECT * FROM `seances`";
     $result = mysqli_query($con , $sql);
